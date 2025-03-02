@@ -3,3 +3,4 @@ streamlit
 langchain
 faiss-cpu
 langchain_community
+tiktoken
