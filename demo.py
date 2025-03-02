@@ -11,8 +11,6 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.chains.conversation.memory import ConversationSummaryBufferMemory
 
-# Load environment variables and the OpenAI API key
-load_dotenv()
 GPT_API_KEY = st.secrets["api"]["key"]  # or st.secrets.api.key
 if not GPT_API_KEY:
     raise ValueError("Please set the OPENAI_API_KEY environment variable.")
