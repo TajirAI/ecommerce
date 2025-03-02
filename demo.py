@@ -311,8 +311,8 @@ def process_user_query(question: str) -> str:
 # Step 7: Main Streamlit Application with Chat History and Conversation Memory
 ############################################
 def main():
-    st.set_page_config(page_title="TajirAI EcomAssist ", layout="wide")
-    st.header("Ecommerce Response System")
+    st.set_page_config(page_title="TajirAI EcomAssist", layout="wide")
+    st.header("TajirAI EcomAssist")
     
     # Initialize conversation memory if not already present.
     if "memory" not in st.session_state:
