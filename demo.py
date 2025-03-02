@@ -343,7 +343,7 @@ def main():
             st.write(msg["content"])
     
     # Chat input.
-    user_query = st.chat_input(placeholder="Ask how we can help you with our products, orders, or order updates!")
+    user_query = st.chat_input(placeholder="Need quick help with products, orders, updates?")
     if user_query:
         # Append and display user message.
         st.session_state["messages"].append({"role": "user", "content": user_query})
